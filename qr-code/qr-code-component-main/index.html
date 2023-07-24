@@ -1,0 +1,83 @@
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    /*Estilizção do Frontend Mentor*/
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    /*Minha estilização começa aqui*/
+     
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+    body{
+      background-color: #D5E1EF;
+      
+    }
+
+    main{
+      font-family: 'Outfit', sans-serif;
+      width: 17%;
+      height: 500px;
+      margin: 100px auto;
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 20px;
+      box-shadow: 2px 2px 2px rgba(00, 00, 00, 0.2);
+    }
+
+    img{
+      width: 80%;
+      height: 270px;
+      margin: 20px 10%;
+      border-radius: 15px;
+    }
+
+    #conteudo{
+      padding: 0px 20px 0px 27px;
+    }
+
+    #escurecer{
+      font-weight: bolder;
+      font-size: 20px;
+      color: hsl(218, 44%, 22%);
+      padding: 0px 0px 0px 20px;
+    }
+
+    #justificado{
+      color: hsl(220, 15%, 55%);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+    <main>
+      <picture>
+        <img src="images/image-qr-code.png" alt="qr-code">
+      </picture>
+
+    <div id="conteudo">
+        <p id="escurecer">
+          <strong>Improve your front-end <br> skills by building projects</strong>
+        </p>
+
+        <p id="justificado">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+
+</div>
+    </main>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>

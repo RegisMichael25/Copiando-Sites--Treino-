@@ -133,7 +133,8 @@
     }
 
     picture img:hover {
-      margin-bottom: 30px;
+      transform: scale(1.06);
+      transition: 0.4s ease;
     }
       
     #rodape{
